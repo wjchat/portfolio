@@ -1,0 +1,87 @@
+.contentcontainer {
+  position: relative;
+  display: block;
+  margin-top: 50%; }
+  @media (min-width: 500px) {
+    .contentcontainer {
+      margin-top: 25%; } }
+  @media (min-width: 900px) {
+    .contentcontainer {
+      margin-top: 13%; } }
+
+.navList {
+  position: relative;
+  display: block;
+  margin-top: 50%;
+  text-align: center; }
+  @media (min-width: 500px) {
+    .navList {
+      margin-top: 25%; } }
+  @media (min-width: 900px) {
+    .navList {
+      margin-top: 13%; } }
+  .navList li {
+    font-size: 2.8rem;
+    display: inline-block;
+    text-align: center;
+    margin-bottom: 4rem;
+    position: relative;
+    cursor: pointer; }
+  .navList .bottomBar {
+    position: absolute;
+    height: 3px;
+    width: 90%;
+    left: 0;
+    right: 0;
+    bottom: -4px;
+    background-color: black;
+    margin: 0 auto; }
+
+.content {
+  width: 85%;
+  height: 100%;
+  display: block;
+  margin: 0 auto; }
+  @media (min-width: 500px) {
+    .content {
+      width: 80%; } }
+  @media (min-width: 900px) {
+    .content {
+      width: 60%; } }
+  .content h1 {
+    font-size: 2.8rem;
+    width: 100%;
+    text-align: center; }
+  .content p {
+    font-size: 1rem;
+    line-height: 1.4rem;
+    margin-top: 2.8rem; }
+    .content p a {
+      text-decoration: underline; }
+      .content p a:hover {
+        color: blue; }
+  .content .right {
+    width: 100%;
+    text-align: right; }
+  .content ul {
+    width: 100%;
+    height: 100%; }
+    .content ul li {
+      width: 100%;
+      height: 100%; }
+      .content ul li img {
+        display: block;
+        height: auto;
+        width: auto;
+        max-width: 90%;
+        margin: 20% auto; }
+        @media (min-width: 900px) {
+          .content ul li img {
+            margin: 5% auto; } }
+  .content video {
+    height: auto;
+    width: auto;
+    max-width: 100%;
+    margin: 100px 0; }
+
+/*# sourceMappingURL=main.css.map */

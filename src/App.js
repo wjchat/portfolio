@@ -1,14 +1,13 @@
 import React, { Component } from 'react';
 
-import Mobile from './components/mobile';
+
+import Container from './components/container';
 
 class App extends Component {
   render() {
     return (
         <div>
-            <div className = 'mobile'>
-                <Mobile />
-            </div>
+            <Container />        
         </div>
     );
   }
